@@ -1,0 +1,72 @@
+.n-container {
+  height: 100px;
+ background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  padding: 5px 20px;
+}
+
+.n-mail {
+  letter-spacing: 1px;
+  margin: 0px 20px;
+}
+.n-row:first-child {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.social img {
+  width: 25px;
+  height: auto;
+  margin: 0px 10px;
+  transition: 0.3s;
+}
+.social img:hover {
+  transform: scale(1.5);
+}
+.n-row:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.icon span {
+  margin: 0px 10px;
+}
+
+.icon span .item {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  list-style-type: none;
+  background: linear-gradient(45deg, #001e28, rgb(50, 50, 50));
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 0px;
+}
+
+.list {
+  margin-right: 15px;
+  font-size: 18px;
+
+  letter-spacing: 5px;
+}
+.list a {
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.list a:hover {
+  color: red;
+}
+.nav{
+  display: inline;
+
+}
