@@ -1,0 +1,1 @@
+<?php include_once("./frontreact/src/index.js")?>
